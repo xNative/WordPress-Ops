@@ -2038,7 +2038,7 @@ function wp_welcome_panel() {
 			<div class="welcome-panel-icon-styles"></div>
 			<div class="welcome-panel-column-content">
 			<?php if ( $is_block_theme ) : ?>
-				<h3><?php _e( 'Switch up your site&#8217;s look & feel with Styles' ); ?></h3>
+				<h3><?php _e( 'Switch up your awesome site&#8217;s look & feel with Styles' ); ?></h3>
 				<p><?php _e( 'Tweak your site, or give it a whole new look! Get creative &#8212; how about a new color palette or font?' ); ?></p>
 				<a href="<?php echo esc_url( admin_url( 'site-editor.php?styles=open' ) ); ?>"><?php _e( 'Edit styles' ); ?></a>
 			<?php else : ?>
